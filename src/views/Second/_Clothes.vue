@@ -1,9 +1,8 @@
 <template>
   <div>
-    <div>
-      <router-link to="/category/clothes">服装</router-link>
-      <router-link to="/category/shoes">鞋子</router-link>
-    </div>
+    <router-link to="/category/clothes/trousers">男装</router-link>
+    <router-link to="/category/clothes/skirts">女装</router-link>
+
     <hr />
     <div>
       <router-view></router-view>
